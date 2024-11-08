@@ -1,0 +1,31 @@
+.inputForms{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputForms label{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -450px;
+}
+
+.inputForms input{
+    width: 500px;
+    height: 20px;
+    border-radius: 25px;
+    border: none;
+    padding: 4px 10px;
+}
+
+@media (max-width:800px){
+    .inputForms input{
+        width: 300px;
+    }
+    .inputForms label{
+        margin-left: -250px;
+    }
+    
+}
